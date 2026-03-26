@@ -45,14 +45,15 @@ Copie-o para a área de trabalho e renomeie para iniciar_o_dia.exe.
 
 
 ## Estrutura do Projeto
-Código
+
+```text
 iniciar_o_dia/
 ├── src/
 │   └── iniciar_o_dia.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 
 ## Principais Comandos PyAutoGUI
