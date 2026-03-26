@@ -28,7 +28,7 @@ Executar o projeto
 Com a venv ativada, rode:
 
 ```bash
-python src/app.py
+python src/iniciar_o_dia.py
 ```
 
 
@@ -36,7 +36,7 @@ Criar Executável
 
 Gere o executável:
 ```bash
-pyinstaller --onefile --noconsole --icon=assets/icon.ico src/iniciar_o_dia.py
+pyinstaller --onefile --noconsole  src/iniciar_o_dia.py
 ```
 
 O arquivo .exe será criado na pasta dist/.
@@ -80,5 +80,3 @@ print(pyautogui.position())
 Personalize os sites e programas no arquivo src/iniciar_o_dia.py.
 
 Adicione venv/, dist/ e build/ ao .gitignore para não subir arquivos desnecessários.
-
-O ícone (icon.ico) é opcional, mas deixa o executável mais profissional.
