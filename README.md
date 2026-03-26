@@ -57,17 +57,35 @@ iniciar_o_dia/
 
 
 ## Principais Comandos PyAutoGUI
-Clique: pyautogui.click(x, y)
+Clique: 
+```texto
+pyautogui.click(x, y)
+```
 
-Duplo clique: pyautogui.doubleClick()
+Duplo clique:
+```texto
+pyautogui.doubleClick()
+```
 
-Direito: pyautogui.rightClick()
+Direito:
+```texto
+pyautogui.rightClick()
+```
 
-Digitar texto: pyautogui.write("texto")
+Digitar texto: 
+```texto
+pyautogui.write("texto")
+```
 
-Pressionar tecla: pyautogui.press("enter")
+Pressionar tecla: 
+```texto
+pyautogui.press("enter")
+```
 
-Atalho de teclado: pyautogui.hotkey("ctrl", "c")
+Atalho de teclado: 
+```texto
+pyautogui.hotkey("ctrl", "c")
+```
 
 ## Posição do mouse:
 
