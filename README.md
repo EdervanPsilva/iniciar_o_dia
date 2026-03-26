@@ -91,9 +91,13 @@ pyautogui.hotkey("ctrl", "c")
 
 python
 
+```texto
 import pyautogui
-print(pyautogui.position())
+import time
 
+time.sleep(5)  # Aguarda 5 segundos para o usuário se preparar
+print(pyautogui.position())
+```
 
 ## Observações
 Personalize os sites e programas no arquivo src/iniciar_o_dia.py.
