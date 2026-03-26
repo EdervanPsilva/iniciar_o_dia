@@ -36,6 +36,7 @@ def iniciar_o_dia():
     py.sleep(1)  # Aguarda o WhatsApp abrir
     py.press('win')  # Pressiona a tecla Windows   
     py.write('maria')  # Digita 'maria' para abrir o aplicativo
+    py.sleep(1)  # Aguarda o WhatsApp abrir
     py.press('enter')  # Pressiona Enter para abrir o aplicativo
     
 
