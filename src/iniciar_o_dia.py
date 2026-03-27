@@ -14,7 +14,9 @@ def iniciar_o_dia():
     webbrowser.open('https://cmaa-smartmanufactory.atlassian.net/jira/people/63c69e352c6573abb08cd4d0/boards/17?assignee=63c6dd0eb1262586707a4723')  # Abre sprint do jira
     py.sleep(1)  # Aguarda o link ser digitado
     py.hotkey('ctrl', 't')  # Abre uma nova aba
+    py.sleep(1)  # Aguarda a nova aba abrir
     py.write('https://app.powerbi.com/')  # Abre o Power BI web
+    py.sleep(1)  # Aguarda o link ser digitado
     py.press('enter')  # Pressiona Enter para abrir o link
 
     py.sleep(1)  # Aguarda o Power BI abrir
