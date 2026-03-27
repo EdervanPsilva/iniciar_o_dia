@@ -32,7 +32,7 @@ def iniciar_o_dia():
 
     py.sleep(1)  # Aguarda o Outlook abrir
     py.press('win')  # Pressiona a tecla Windows
-    py.write('whatsapp')  # Digita 'whatsapp' para abrir o WhatsApp
+    py.write('whatsApp Web')  # Digita 'whatsapp' para abrir o WhatsApp
     py.sleep(1)  # Aguarda o WhatsApp abrir
     py.press('enter')  # Pressiona Enter para abrir o WhatsApp 
 
